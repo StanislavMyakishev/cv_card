@@ -13,7 +13,7 @@ function Home() {
           My name is&nbsp;
           <span className="highlighted">Stanislav Myakishev</span>
           &nbsp;and I&apos;m a&nbsp;
-          <span className="highlighted">frontend developer</span>.
+          <span className="highlighted">front–end developer</span>.
         </span>
         <br />
         <q>Brevity is the sister of talent</q>
@@ -25,11 +25,11 @@ function Home() {
           So instead of many words here you can find my CV
           <br />
           in&nbsp;
-          <a href="/files/Stanislav_Myakishev_eng.pdf" download={fileName}>
+          <a href="/cv_card/files/Stanislav_Myakishev_eng.pdf" download={fileName}>
             <span className="highlight-link">english</span>
           </a>
           &nbsp;or in&nbsp;
-          <a href="/files/Stanislav_Myakishev_ru.pdf" download={fileName}>
+          <a href="/cv_card/files/Stanislav_Myakishev_ru.pdf" download={fileName}>
             <span className="highlight-link">russian</span>
           </a>
           .
@@ -40,7 +40,7 @@ function Home() {
             width={100} 
             height={100}
             className="profile"
-            src="/profile.png"
+            src="/cv_card/profile.png"
             alt="stanislav myakishev"
             />
           <table>
